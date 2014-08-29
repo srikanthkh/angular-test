@@ -1,0 +1,3 @@
+[submodule "newframework"]
+	path = newframework
+	url = https://github.com/khsrikanth89/angular-test.git
