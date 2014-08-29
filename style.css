@@ -1,0 +1,162 @@
+html, body{
+    margin:0;
+    font-family:Helvetica Neue;
+    font-weight:200;
+}
+
+.wrapper, header, .user, #user-images, .side-bar-contacts{
+    display: flex;
+}
+header{
+    background-color: #FFF;
+    padding-bottom:10px;
+    padding-top:25px;
+    padding-left:15px;
+    align-items:center;
+    flex-flow:row wrap;
+}
+header .logo{
+    height:60px;
+}
+header input[type="text"]{
+    margin-left:30px;
+    height:60px;
+    min-width:75%;
+    border:none;
+    border-bottom:1px solid #EEE;
+    font-size:35px;
+    font-family:Helvetica Neue;
+    font-weight:100;
+}
+.user{
+    align-items:center;
+    flex-flow:column;
+    padding:10px;
+}
+.user .profile_img{
+    border-radius:50%;
+    height:50px;
+}
+#user-images .icon{
+    height:20px;
+}
+#user-images *{
+    flex-flow:column;
+}
+.user h1, .user h2, .user h3{
+    font-weight:100;
+    margin:0px;
+}
+.user h1{
+    font-size:20px;
+}
+.user h2, .user h3{
+    font-size:15px;
+}
+.flag{
+    margin-right:3px;
+}
+#side-bar{
+    background-color: #FFF;
+    width: 260px;
+    height: 1000px;
+    padding-right:5px;
+    border-right:1px solid #EEE;
+    border-top:1px solid #EEE;
+    box-shadow: 2px -2px 7px #DDD;
+    z-index:1000;
+}
+#hide-icon{
+    margin-left:240px;
+}
+#double-arrow{
+    margin-right:0px;
+}
+#side-bar h1{
+    font-size:15px;
+    padding-left:15px;
+    border-bottom:1px solid #EEE;
+}
+#side-bar ul{
+    list-style-type:none;
+    padding:0px;
+}
+#side-bar li{
+    padding:3px 10px;
+}
+#side-bar ul li:first-child{
+    font-weight:400;
+    border-bottom:solid 1px #EEE;
+}
+#side-bar ul li:not(:first-child){
+    font-size:14px;
+    text-indent:10px;
+}
+.side-bar-contacts{
+    flex-flow:column;
+}
+.side-bar-contacts li{
+    border-bottom:1px solid #EEE;
+}
+.side-bar-contacts img{
+    vertical-align: middle;
+    margin-right:10px;
+}
+.chat-img{
+    height:30px;
+    border-radius:50%;
+}
+#chat-panel {
+	background-color: #FFF;
+    width: 400px;
+    height: 1000px;
+    padding:0px 15px;
+}
+#chat-panel h1, #chat-panel h2{
+    text-align:center;
+}
+#chat-panel h1{
+    vertical-align: middle;
+    font-size:22px;
+}
+#chat-panel h2{
+    font-size:15px;
+    font-weight:500;
+}
+#chat-panel h1 img{
+    vertical-align: middle;
+}
+.chat-line{
+
+}
+.chat-actions{
+    font-size:10px;
+    display:inline-block;
+    padding:0px 5px;
+}
+#video-call{
+    color:#29ABE2;
+}
+#voice-call{
+    color:#22B573;
+}
+#share-doc{
+    color:#5C5C5C;
+}
+.windowed-class{
+    display:inline-block;
+    float: right;
+    margin-right: 20px;
+    margin-top: -50px;
+}
+.main {   
+}
+#sidebar-resizer {
+	background-color: #666;
+    position: absolute;
+    top: 150px;
+    height: 1000px;
+    left: 660px;
+    width: 6px;
+    cursor: e-resize;
+}

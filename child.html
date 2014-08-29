@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html ng-app="vidao">
+
+  <head>
+    <meta charset="utf-8" />
+    <title>Vidao</title>
+    <link href="normalize.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+    <link href="layout.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+    <link href="layout.css" rel="stylesheet" />
+    <script src="http://code.jquery.com/jquery-2.0.3.min.js" data-semver="2.0.3" data-require="jquery"></script>
+    <script data-semver="1.2.13" src="http://code.angularjs.org/1.2.13/angular.js" data-require="angular.js@1.2.x"></script>
+    <script src="app.js"></script>
+    <script src="resizer.js"></script>
+    <script src="vidao-win-state.js"></script>    
+  </head>
+
+<body ng-controller="MainCtrl">
+ 
+            <div class= "vidao-container">
+                <div>
+                  <div id="video-call" class="chat-actions">
+                    <img src="imgs/icons/video-09.png">
+                    <p>Video Call</p>
+                  </div>
+                  <div id="voice-call" class="chat-actions">
+                    <img src="imgs/icons/call-10.png">
+                    <p>Voice Call</p>
+                  </div>
+                  <div id="share-doc" class="chat-actions">
+                    <img src="imgs/icons/doc-11.png">
+                    <p>Share Doc</p>
+                  </div>
+               
+                  <div call="vidao_call()" windowed>
+                    <p class='body'> recent introduction of personalized frontends (user.yworld.com)
+                        came with some configuration changes that will affect whether media
+                        use is auto-accepted or not.
+                        If every time a call is made, chrome asks you to for access to
+                        camera/mic and you would like to change that, use https:// explicitly.
+                        I.e karl.yworld.com or http://karl.yworld.com will ask you every time.
+                        https://karl.yworld.com will ask you once and remember the setting.
+                    </p>
+                  </div>
+               </div>
+           </div>
+          
+</body>
+</html>
